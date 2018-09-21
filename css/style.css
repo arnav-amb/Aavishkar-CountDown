@@ -11,8 +11,8 @@
   /*border-bottom: solid red 8px;*/
   /*border-left: solid blue 8px;*/
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 40%;
+  left: 40%;
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
   animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
