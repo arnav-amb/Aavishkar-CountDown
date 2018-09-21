@@ -4,10 +4,12 @@
  src: url('../img/digital-7.ttf');
 }
 .spinner {
-  width: 40px;
-  height: 40px;
-  background-color: #000;
-
+  width: 140px;
+  height: 140px;
+  border-radius: 25px;
+  border: solid black 8px;
+  /*border-bottom: solid red 8px;*/
+  /*border-left: solid blue 8px;*/
   position: absolute;
   top: 48%;
   left: 48%;
