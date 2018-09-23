@@ -26,14 +26,6 @@
   </div>
 
   <div class="box bg" data-ibg-bg='./img/crosshair2.png'>
-    <div class="blackdiv up" style="height: 100%;width: 500%;top: 0;position: absolute;margin-top: -48.62%;margin-left: -150%;background-color: #000">
-    </div>
-    <div class="blackdiv rt" style="height: 100%;width: 100%;top: 0;position: absolute;margin-left: 100%;background-color: #000">
-    </div>
-    <div class="blackdiv lft" style="height: 100%;width: 100%;top: 0;position: absolute;margin-left: -100%;background-color: #000">
-    </div>
-    <div class="blackdiv dw" style="margin-left: -50%;height: 100%;width: 500%;background-color: #000;">
-    </div>
   </div>
 
   <div class="row footer">
@@ -101,18 +93,6 @@ $(document).ready(function(){
     }
 });
 
-$(document).ready(function() {
-//Preloader
-$(window).on("load", function() {
-preloaderFadeOutTime = 500;
-function hidePreloader() {
-var preloader = $('.spinner-wrapper');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-});
-});
-
   // change background size on window resize
 $(window).resize(function() {
       $(".bg > .ibg-bg").css({
@@ -123,7 +103,4 @@ $(window).resize(function() {
   </script>
   <script src="js/script.js"></script>
   </body>
-  <div class="spinner-wrapper">
-  <div class="spinner"></div>
-  </div>
 </html>
